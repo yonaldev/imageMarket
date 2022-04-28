@@ -1,0 +1,36 @@
+{
+  "name": "imagemarket",
+  "version": "1.0.0",
+  "description": "Prueba tecnica ImageMarket",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "nodemon node ./index.js",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonaldev/imageMarket.git"
+  },
+  "author": "Yonal Alexis Londoño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonaldev/imageMarket/issues"
+  },
+  "homepage": "https://github.com/yonaldev/imageMarket#readme",
+  "devDependencies": {
+    "jest": "^28.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-validator": "^6.14.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
